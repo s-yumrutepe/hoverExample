@@ -1,0 +1,36 @@
+.body  {
+    background-image:url(bg5.jpg) ;
+  
+}
+.img{
+    width: 300px;
+   transition:width 0.2ms;
+   
+    
+}
+img#king{   
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: 60px;
+}
+img#as{
+    position: absolute;    
+    margin-left:300px;
+    top: 100px; 
+    margin-left: 300px;   
+    transform: rotate(-10deg);
+
+}
+img#joker{   
+    position: absolute;
+    right: 300px;
+    top: 100px;
+    transform: rotate(10deg);
+
+    
+}
+img:hover{
+    width: 350px;
+    z-index: 2;
+}
